@@ -31,8 +31,17 @@ code {
   height: 0px;
 
 }
+.text-light-gray{
+  color: #f4f5f6 !important;
+}
+.text-gray{
+  color: #5c5c5c !important;
+}
 .text-blue{
-  color: #1ed2f4 !important;
+  color: #1996af !important;
+}
+.text-light-blue{
+  color: #21cdf0 !important;
 }
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */

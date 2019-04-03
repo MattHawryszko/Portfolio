@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 
 export default class App extends Component {
-render() {
+  render() {
     return (
-    <div>
-        <h3>Skills</h3>
+    <div className="container">
+      <div className="row justify-content-center">   
+        <h2 className="py-5 text-center text-uppercase text-blue">Skills<div class="mx-auto dash-small"></div></h2>
+      </div>
+      <div className="row">
+          <div className="">
+          </div>
+          
+      </div>
     </div>     
     );
   }
 };
-
