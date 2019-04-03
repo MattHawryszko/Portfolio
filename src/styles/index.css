@@ -29,7 +29,14 @@ code {
   border: 1px solid #f4f5f6;
   width: 280px;
   height: 0px;
-
+}
+.dash-xs{
+  border: 1px solid #000000;
+  width: 40px;
+  height: 0px;
+}
+.bg-light-gray{
+  background-color: #f4f5f6 !important;
 }
 .text-light-gray{
   color: #f4f5f6 !important;

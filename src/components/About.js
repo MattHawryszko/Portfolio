@@ -5,7 +5,7 @@ export default class App extends Component {
 render() {
     return (
     <div className="container">
-      <div className="pt-5 row">
+      <div className="py-5 row">
           <div className="col-md-6 d-none d-sm-block my-auto">
               <img src={Image} alt="Logo" className="w-100" />
           </div>
