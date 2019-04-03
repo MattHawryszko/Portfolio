@@ -1,0 +1,19 @@
+.btn--contact {
+    border-radius: 25px;
+    background: #ffffff;
+    color: #2b2b3a;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: background-color, color .5s ease-out 1s;
+    transition-delay: .1s;
+    transition-property: background-color, color;
+  }
+.btn--contact:hover {
+    border-radius: 25px;
+    background: #1ed2f4;
+    color: #ffff;
+    text-decoration: none;
+
+  }
