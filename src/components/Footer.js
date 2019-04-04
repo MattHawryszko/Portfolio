@@ -10,7 +10,7 @@ render() {
             <h4 className="pt-5 text-center text-uppercase text-light-blue">Matt Hawryszko<div className="dash"></div></h4>
         </div>
         <div className="row justify-content-center">
-            <q className="text-white">The best thing about a boolean is even if you are wrong, you are only off by a bit.</q>
+            <q className="text-white px-5">The best thing about a boolean is even if you are wrong, you are only off by a bit.</q>
         </div>
         <div className="row justify-content-center pb-5">
             <a href="https://github.com/MattHawryszko" target="_blank" className="text-white"><h4><i className="fab fa-github-square p-1"></i></h4></a>

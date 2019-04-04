@@ -17,10 +17,10 @@ export default class App extends Component {
             return (
                 <div>
                     <div className="row py-5">
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-lg-6">
                         <img src={this.props.image} alt="Logo" className="w-100" />
                         </div>
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-lg-6">
                             <h5 className="pt-2 text-center text-uppercase text-blue">{this.props.title}<div className="dash-xs mx-auto"></div></h5>
                             <p className="text-center text-gray px-5 h6 pb-1">{this.props.text}</p>
                             <p className="text-center text-gray px-5 h6"><span className="text-blue">Build Tools :</span> {this.props.tools}</p>
@@ -39,9 +39,9 @@ export default class App extends Component {
         }else{
             return (
                 <div>
-                    <div className="row py-5">
+                    <div className="row py-5 flex-column-reverse flex-lg-row">
                         
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-lg-6">
                             <h5 className="pt-2 text-center text-uppercase text-blue">{this.props.title}<div className="dash-xs mx-auto"></div></h5>
                             <p className="text-center text-gray px-5 h6 pb-1">{this.props.text}</p>
                             <p className="text-center text-gray px-5 h6"><span className="text-blue">Build Tools :</span> {this.props.tools}</p>
@@ -53,7 +53,7 @@ export default class App extends Component {
                             </div>
                             
                         </div>
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-lg-6 ">
                             <img src={this.props.image} alt="Logo" className="w-100" />
                         </div>
                     </div>
