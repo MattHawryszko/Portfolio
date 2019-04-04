@@ -1,0 +1,78 @@
+
+#navbar {
+    background-color: #fff; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    -webkit-transition: opacity 0.6s cubic-bezier(0.25, 0.1, 0.34, 1.45);
+    transition: opacity 0.6s cubic-bezier(0.25, 0.1, 0.34, 1.45);
+    -webkit-box-shadow: 0 10px 6px -7px rgba(0, 0, 0, 0.59);
+    box-shadow: 0 10px 6px -7px rgba(0, 0, 0, 0.59);
+    z-index: 1000000;
+  }
+
+  /* Style the navbar links */
+  #navbar li {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+  }
+  #navbar li>a {
+    float: left;
+    display:inline-block;
+    padding: 20px;
+    display: flex;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+  }
+  #navbar li.active {
+    background-color: #1f3a49;
+    color: #fff;
+    transition: all .5s ease-out 1s;
+    transition-delay: .1s;
+    transition-property: all;
+  }
+  #navbar li:hover {
+    background-color: #1f3a49;
+    color: #fff;
+    transition: all .5s ease-out 1s;
+    transition-delay: .1s;
+    transition-property: all;
+  }
+
+.btn-text{
+    border: 2px solid #254558;
+    border-radius: 25px;
+    padding-left: 80px; 
+    padding-right: 80px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    transition: all .5s ease-out 1s;
+    transition-delay: .1s;
+    transition-property: all;
+    color: #000;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+}
+.btn-text:hover{
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding-left: 80px; 
+    padding-right: 80px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #254558;
+    color: #fff;
+    transition: all .5s ease-out 1s;
+    transition-delay: .1s;
+    transition-property: all;
+}
