@@ -16,8 +16,8 @@ render() {
                 <h3 className="pt-5 text-center text-uppercase text-blue">Matt Hawryszko<div className="dash-white"></div></h3>
             </div>
             <div className="row justify-content-center pb-2">
-                <a href="https://github.com/MattHawryszko" target="_blank" className="text-white"><h4><i className="fab fa-github-square p-1"></i></h4></a>
-                <a href="https://www.linkedin.com/" target="_blank" className="text-white"><h4><i className="fab fa-linkedin p-1"></i></h4></a>
+                <a href="https://github.com/MattHawryszko" target="_blank" rel="noopener noreferrer" className="text-white"><h4><i className="fab fa-github-square p-1"></i></h4></a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-white"><h4><i className="fab fa-linkedin p-1"></i></h4></a>
             </div>
             <div className="row justify-content-center">
               <div className="col-12 col-md-8 col-lg-6">

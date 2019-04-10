@@ -25,10 +25,10 @@ export default class App extends Component {
                             <p className="text-center text-gray px-5 h6 pb-1">{this.props.text}</p>
                             <p className="text-center text-gray px-5 h6"><span className="text-blue">Build Tools :</span> {this.props.tools}</p>
                             <div className="row justify-content-center">
-                                <button class="btn-projects d-flex">View Live Demo</button>                 
+                                <a className="btn-projects d-flex" target="_blank" rel="noopener noreferrer" href={this.props.demo}>View Live Demo</a>                 
                             </div>
                             <div className="row justify-content-center">
-                                <button class="btn-projects d-flex">View On Github</button>
+                                <a className="btn-projects d-flex" target="_blank" rel="noopener noreferrer" href={this.props.source}>View On Github</a>
                             </div>
                         </div>
                         
@@ -46,10 +46,10 @@ export default class App extends Component {
                             <p className="text-center text-gray px-5 h6 pb-1">{this.props.text}</p>
                             <p className="text-center text-gray px-5 h6"><span className="text-blue">Build Tools :</span> {this.props.tools}</p>
                             <div className="row justify-content-center">
-                                <button class="btn-projects d-flex">View Live Demo</button>                 
+                            <a className="btn-projects d-flex" target="_blank" rel="noopener noreferrer" href={this.props.demo}>View Live Demo</a> 
                             </div>
                             <div className="row justify-content-center">
-                                <button class="btn-projects d-flex">View On Github</button>
+                            <a className="btn-projects d-flex" target="_blank" rel="noopener noreferrer" href={this.props.source}>View On Github</a>
                             </div>
                             
                         </div>
