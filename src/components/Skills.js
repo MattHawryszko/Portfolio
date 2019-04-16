@@ -25,7 +25,6 @@ export default class App extends Component {
                 <h6 className="text-blue text-center">Development Tools<div className="mt-1 dash-xs mx-auto"></div></h6>
                 <p className="text-gray text-center">NPM<br/>Git, Github <br/>Webpack , Babel<br/> PHPmyAdmin<br/> Gulp </p>
               </div>
-              
           </div>
         </div>
         </section>     
