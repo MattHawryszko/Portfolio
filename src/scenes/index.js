@@ -10,9 +10,24 @@ import Projects from '../components/Projects';
 
 
 import "../styles/index.css";
+import "../styles/animate.css";
+import wow from "wow.js"
 
 import 'bootstrap/dist/css/bootstrap.css';
 import '@fortawesome/fontawesome-free/css/all.css';
+
+
+
+new wow(
+  {
+  boxClass:     'wow',      // default
+  animateClass: 'animated', // default
+  offset:       0,          // default
+  mobile:       false,       // default
+  live:         true        // default
+  }
+).init();
+
 
 export default class App extends Component {
   componentDidMount(){

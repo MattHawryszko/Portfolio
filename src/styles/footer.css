@@ -1,9 +1,8 @@
 .footer-bg{
     position: relative;
     width: 100%;
-    background: #1996af;
-    background: -webkit-gradient(linear, left top, right top, from(#1996af), to(#23c4e4));
-    background: linear-gradient(to right, #1996af, #23c4e4);
+    background: #222222;
+    
 }
 .dash{
     border: 1px solid #ffff;

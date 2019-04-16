@@ -7,7 +7,7 @@ render() {
     return (
     <div className="container-fluid footer-bg">
         <div className="row justify-content-center">
-            <h4 className="pt-5 text-center text-uppercase text-light-blue">Matt Hawryszko<div className="dash"></div></h4>
+            <h4 className="pt-5 text-center text-uppercase text-blue">Matt Hawryszko<div className="dash"></div></h4>
         </div>
         <div className="row justify-content-center">
             <q className="text-white px-5">The best thing about a boolean is even if you are wrong, you are only off by a bit.</q>
