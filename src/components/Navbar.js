@@ -55,7 +55,7 @@ render() {
       
       
     </ul>
-      <div className="row justify-content-between justify-content-md-end pt-2">
+      <div className="d-flex justify-content-between justify-content-md-end pt-2">
           <a href="#exampleModal" role="button" className="btn toggleNav pl-4 pt-1 pb-2 d-flex d-md-none" data-toggle="modal"><i className="p-0 m-0 fas fa-bars toggleNav"></i></a>
           <a className="text-uppercase pr-4 py-2 pb-3 py-md-0" href="resume.pdf" target="_blank"><span className="btn-text"><i className="fa fa-download"></i>cv</span></a>
       </div>
