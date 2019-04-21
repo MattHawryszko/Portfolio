@@ -18,7 +18,7 @@ export default class App extends Component {
                 <div>
                     <div className="row py-5 m-0">
                         <div className="wow bounceInRight col-12 col-lg-6">
-                        <img src={this.props.image} alt="Logo" className="w-100" />
+                            <img src={this.props.image} alt="Logo" className="w-100" />
                         </div>
                         <div className="wow bounceInLeft col-12 col-lg-6 m-0">
                             <h5 className="pt-2 text-center text-uppercase text-blue">{this.props.title}<div className="dash-xs mx-auto"></div></h5>
