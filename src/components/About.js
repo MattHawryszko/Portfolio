@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../styles/about.css"
-import Image from "../img/self.jpg";
+import Image from "../img/website2.jpeg";
 export default class App extends Component {
 render() {
     return (
